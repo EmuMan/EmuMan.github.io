@@ -1,0 +1,126 @@
+body {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2f2f2f;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+/* ------------------------------ */
+
+#page-title {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* ------------------------------ */
+
+.bot-header {
+  display: table;
+}
+
+.bot-name {
+  padding-left: 15px;
+  font-size: 28px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.prefix {
+  font-size: 13px;
+  font-style: italic;
+}
+
+img.pfp {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+.content {
+  padding: 30px 35px;
+  background-color: #1f1f1f;
+}
+
+.topnav, .dropdown-content {
+  background-color: #707070;
+  overflow: hidden;
+}
+
+.topnav a, .dropdown .dropbtn {
+  font-size: 28px;
+}
+
+.topnav a, .dropdown .dropbtn, .dropdown-content a {
+  padding: 14px 30px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn  {
+  background-color: #a7a7a7;
+}
+
+.topnav a.active, .dropdown button.active {
+  background-color: #474747;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin: 0;
+  border-radius: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  font-size: 22px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #a7a7a7;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#bloglist {
+  width: "100%"
+}
+
+#bloglist, #bloglist th, #bloglist td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px 15px
+}

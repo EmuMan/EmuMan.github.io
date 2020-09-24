@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <title>EmuMan - Discord Bots</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="EmuMan's page on Discord bots.">
+        <meta name="author" content="Jacob Kelleran">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 id="page-title">EmuMan</h1>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn active">Programming</button>
+                <div class="dropdown-content">
+                    <a href="discordbots.html">Discord Bots</a>
+                    <a href="bukkitplugins.html">Bukkit Plugins</a>
+                    <a href="miscprogramming.html">Miscellaneous</a>
+                </div>
+            </div>
+            <a href="art.html">Art</a>
+            <a href="about.html">About Me</a>
+        </div>
+
+        <div class="content">
+            <h1>Discord Bots</h1>
+            <p>I do a lot of stuff with Discord bots in my spare time using the discord.py library. Here are some of the more prominent ones I've created.</p>
+            <br><hr><br>
+            <div class="bot-list">
+                <div class="bot-listing" id="corn">
+                    <div class="bot-header">
+                        <img class="pfp" src="pfps/corn.png" alt="corn's profile picture">
+                        <span class="bot-name">corn</span>
+                    </div>
+                    <p class="prefix">prefix: c!</p>
+                    <br>
+                    <p>corn is one of the first Discord bots I've ever made, but it's still one of my favorites. The rules is simple:</p>
+                    <ul>
+                        <li>If a message has the word "corn" in it (must be in order, repeated letters are okay) with only punctuation/spaces separating the letters (e.g. "<b>corn</b>", "<b>coooorn</b>", "<b>c</b>-<b>o</b>/<b>r</b>.<b>n</b>", "epi<b>c or n</b>ot"), then corn will respond with "hello corn".</li>
+                        <li>If a message has the word "corn" in it (must be in order) BUT there are other characters in between (e.g. "<b>co</b>ol bu<b>rn</b>ing", "<b>c</b>ars <b>o</b>n <b>r</b>aw <b>n</b>oodles", but not "<b>c</b>ars <b>o</b>f New Je<b>r</b>sey"), then corn reacts with the 🌽 emoji.</li>
+                        <li>If an image has corn in it, then corn will react with a corn emoji (this utilizes the Clarifai API, which isn't 100% accurate, but it's pretty good).</li>
+                        <li>Sometimes corn will give you... another response.</li>
+                    </ul>
+                    <p>Some other commands you can give it:</p>
+                    <ul>
+                        <li><code>c!cool_corn &lt;caption&gt;</code> - generates a very cool picture with a given caption.</li>
+                        <li><code>c!link</code> - gives the link to add corn to your server.</li>
+                    </ul>
+                    <p>Add corn to your server <a href="https://discordapp.com/oauth2/authorize?client_id=461849775516418059&scope=bot&permissions=0">here</a>.</p>
+                    <br><hr><br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
